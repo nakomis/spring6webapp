@@ -74,13 +74,14 @@ public class Book {
         return getId() != null ? getId().hashCode() : 0;
     }
 
+
+
     @Override
     public String toString() {
         return "Book{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", isbn='" + isbn + '\'' +
-                ", authors=" + authors +
                 '}';
     }
 }

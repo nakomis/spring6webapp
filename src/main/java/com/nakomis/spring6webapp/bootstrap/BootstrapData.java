@@ -26,7 +26,7 @@ public class BootstrapData implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         Publisher publisher = new Publisher();
-        publisher.setPublisherName("Nakomis Softwords");
+        publisher.setPublisherName("Nakomis Softworks");
         publisher.setAddress("Silverknowes");
         publisher.setCity("Edinburgh");
         publisher.setZip("94596");
